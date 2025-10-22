@@ -1,0 +1,38 @@
+{
+  "generated_at": "2025-10-22 13:11:09 UTC",
+  "movies.cleaned": {
+    "missing_columns": [],
+    "missing_values": {
+      "movieId": 0,
+      "title_clean": 0,
+      "year": 24,
+      "genres_list": 0
+    },
+    "duplicate_keys": 0,
+    "invalid_year_range": 0,
+    "genres_list_listlike_in_sample": 0,
+    "rows": 9742,
+    "schema_check": "PASSED"
+  },
+  "ratings.cleaned": {
+    "missing_columns": [],
+    "missing_values": {
+      "userId": 0,
+      "movieId": 0,
+      "rating": 0,
+      "timestamp": 0
+    },
+    "invalid_ratings": 0,
+    "timestamp_format_errors": 0,
+    "rows": 100836,
+    "schema_check": "PASSED"
+  },
+  "links.cleaned": {
+    "missing_columns": [],
+    "duplicate_keys": 0,
+    "invalid_imdb_format": 0,
+    "missing_tmdbId": 8,
+    "rows": 9742,
+    "schema_check": "WARNING"
+  }
+}

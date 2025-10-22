@@ -1,0 +1,21 @@
+===== Sanity Check Report =====
+
+[ratings.cleaned]
+✅ No duplicate (userId, movieId)
+✅ Rating range OK (0.5–5.0)
+ℹ️ timestamp nulls: 0 (0.00%)
+
+[movies.cleaned]
+✅ movieId unique
+✅ Year range OK (nulls: 24)
+ℹ️ year nulls: 24 (0.25%)
+
+[links.cleaned]
+✅ movieId unique
+✅ imdbId_tt format OK
+ℹ️ tmdbId nulls: 8 (0.08%)
+
+Summary:
+No warnings
+------------------------------------
+Generated: 2025-10-22 13:40 UTC

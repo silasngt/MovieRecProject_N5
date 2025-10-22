@@ -1,0 +1,13 @@
+dataset,rows,column,nulls,null_pct,distinct,min,max,mean,duplicates_on_key
+movies.cleaned,9742,movieId,0,0.0,9742.0,1.0,193609.0,42200.353623485935,0.0
+movies.cleaned,9742,title_clean,9742,1.0,0.0,,,,
+movies.cleaned,9742,year,9742,1.0,0.0,,,,
+movies.cleaned,9742,genres_list,0,0.0,,,,,
+ratings.cleaned,100836,userId,0,0.0,610.0,1.0,610.0,326.12756356856676,
+ratings.cleaned,100836,movieId,0,0.0,9724.0,1.0,193609.0,19435.2957177992,
+ratings.cleaned,100836,rating,0,0.0,10.0,0.5,5.0,3.501556983616962,
+ratings.cleaned,100836,timestamp,100836,1.0,0.0,,,,
+links.cleaned,9742,movieId,0,0.0,9742.0,1.0,193609.0,42200.353623485935,0.0
+links.cleaned,9742,imdbId_tt,9742,1.0,0.0,,,,
+links.cleaned,9742,tmdbId,8,0.000821186614658181,9733.0,2.0,525662.0,55162.123792890896,
+ratings.cleaned,100836,__aggregate_avg_rating__,0,0.0,,,,3.501556983616962,
