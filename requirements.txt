@@ -2,3 +2,7 @@ pandas
 pymongo
 pyarrow
 python-dotenv
+numpy
+matplotlib
+seaborn
+scikit-learn
