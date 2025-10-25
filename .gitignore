@@ -5,3 +5,4 @@ __pycache__/
 .env
 !etl/fixtures/*.csv
 !etl/reports/*.csv
+!etl/datasets/*.csv
