@@ -1,0 +1,4 @@
+model,mean_cv_f1_macro,std_cv_f1_macro,best_params,n_features,features
+RandomForest,0.09684490246846333,0.006158738496006822,"{""max_depth"": 20, ""n_estimators"": 100}",5,"avg_rating,rating_count,rating_std,year,tmdbId"
+KNN,0.09119727987026317,0.00982522206993499,"{""n_neighbors"": 3, ""weights"": ""distance""}",5,"avg_rating,rating_count,rating_std,year,tmdbId"
+SVM,0.0740953729644351,0.005107698629434755,"{""C"": 10.0, ""kernel"": ""rbf""}",5,"avg_rating,rating_count,rating_std,year,tmdbId"
